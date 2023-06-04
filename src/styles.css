@@ -1,0 +1,110 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #8052ec, #d161ff);
+}
+
+button {
+  background: #3a4452;
+  border: none;
+  cursor: pointer;
+}
+
+.Maintext {
+  color: wheat;
+  font-size: 3rem;
+}
+
+.Todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20vh;
+  color: white;
+}
+
+.addinput {
+  background: #3a4452;
+  border-radius: 8px;
+  height: 45px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.addinput input {
+  height: 40px;
+  width: 400px;
+  background: #3a4452;
+  border-radius: 8px;
+  border: 2px solid #3a4452;
+  outline: none;
+  color: white;
+}
+
+.addinput button {
+  display: block;
+  margin-left: auto;
+}
+
+.taskList {
+  height: 40px;
+  width: 400px;
+  background: #3a4452;
+  border: 2px solid #3a4452;
+  outline: none;
+  display: flex;
+  align-items: center;
+}
+
+.taskList button {
+  display: block;
+  margin-left: auto;
+}
+
+.footer {
+  height: 40px;
+  width: 403.2px;
+  background: #3a4452;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+
+.footer span {
+  display: block;
+  margin-right: auto;
+  color: black;
+}
+
+.footer button {
+  font-size: 13px;
+}
+
+.ClearCompleted {
+  display: block;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 450px) {
+  .addinput {
+    width: 300px;
+  }
+  .addinput input {
+    width: 300px;
+  }
+  .taskList {
+    width: 300px;
+  }
+  .footer {
+    width: 303.2px;
+  }
+}
